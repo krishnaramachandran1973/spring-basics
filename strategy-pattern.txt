@@ -1,0 +1,20 @@
+Design Principle - 1
+	 Identify the aspects of your application that vary and separate them from what stays the same. 
+	 Take what varies and “encapsulate” it so it won’t affect the rest of your code.
+	 
+	 	 if  you’ve got some aspect of  your code that is changing, with every new requirement, then you know you’ve
+got a behavior that needs to be pulled out and separated from all the stuff that doesn’t change.
+
+As simple as this concept is, it forms the basis for almost every design pattern.
+
+
+Design Principle - 2
+  Program to an interface, not an implementation.
+  
+  Design Principle - 3
+	Favor composition over inheritance (has-a instead of is-a)
+	
+	When you put two classes together like this you’re using composition.  Instead of  inheriting their behavior, the 	
+	The Strategy Pattern defines a family of  algorithms, encapsulates each one, and makes them interchangeable. 
+	
+	
