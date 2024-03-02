@@ -15,12 +15,4 @@ public class ProfilesConfigurer {
 	public FoodProviderService foodProviderHighSchool() {
 		return new FoodProviderServiceImpl();
 	}
-
-	/*
-	 * @Bean
-	 * 
-	 * @Profile("kindergarten") public FoodProviderService
-	 * foodProviderKindergarten() { return new
-	 * com.wipro.app.profiles.service.kindergarten.FoodProviderServiceImpl(); }
-	 */
 }

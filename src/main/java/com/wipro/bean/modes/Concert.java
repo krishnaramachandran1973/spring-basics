@@ -8,9 +8,13 @@ import lombok.Getter;
 @Component
 public class Concert {
 
-	@Autowired
 	@Getter
 	private Singer singer;
+
+	@Autowired
+	public Concert(Singer singer) {
+		this.singer = singer;
+	}
 
 	public void startPlay() {
 		singer.sing();

@@ -11,6 +11,5 @@ public class Main {
 		pub.publish("I send an SOS to the world... ");
 		pub.publish("... I hope that someone gets my...");
 		pub.publish("... Message in a bottle");
-
 	}
 }

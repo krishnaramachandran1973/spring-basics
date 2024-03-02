@@ -42,8 +42,7 @@ public class Singer implements InitializingBean, DisposableBean {
 	
 	@Override
 	public void destroy() throws Exception {
-		System.out.println("Destroy called");
-		
+		System.out.println("Destroy called");	
 	}
 
 	private static Singer getBean(String beanName, ApplicationContext ctx) {

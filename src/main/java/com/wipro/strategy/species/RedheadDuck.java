@@ -5,6 +5,7 @@ import com.wipro.strategy.behaviour.Flyable;
 import com.wipro.strategy.behaviour.Quakable;
 
 public class RedheadDuck extends Duck {
+
 	public RedheadDuck(Flyable flyable, Quakable quakable) {
 		this.flyable = flyable;
 		this.quakable = quakable;

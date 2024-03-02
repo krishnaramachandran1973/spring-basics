@@ -2,6 +2,7 @@ package com.wipro.simple.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 import com.wipro.simple.service.MessageProvider;
 import com.wipro.simple.service.MessageRenderer;

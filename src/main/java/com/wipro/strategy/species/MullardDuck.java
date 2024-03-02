@@ -5,10 +5,10 @@ import com.wipro.strategy.behaviour.Flyable;
 import com.wipro.strategy.behaviour.Quakable;
 
 public class MullardDuck extends Duck {
-	
+
 	public MullardDuck(Flyable flyable, Quakable quakable) {
-		this.flyable=flyable;
-		this.quakable=quakable;
+		this.flyable = flyable;
+		this.quakable = quakable;
 	}
 
 	@Override
@@ -16,4 +16,5 @@ public class MullardDuck extends Duck {
 		System.out.println("Mullard duck is displayed");
 
 	}
+
 }

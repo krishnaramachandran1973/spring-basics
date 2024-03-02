@@ -5,12 +5,11 @@ import com.wipro.strategy.behaviour.Flyable;
 import com.wipro.strategy.behaviour.Quakable;
 
 public class RubberDuck extends Duck {
-	
-	public RubberDuck(Flyable flyable, Quakable quakable) {
-		this.flyable=flyable;
-		this.quakable=quakable;
-	}
 
+	public RubberDuck(Flyable flyable, Quakable quakable) {
+		this.flyable = flyable;
+		this.quakable = quakable;
+	}
 
 	@Override
 	public void display() {

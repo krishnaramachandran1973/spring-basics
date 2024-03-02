@@ -18,9 +18,9 @@ public class DuckUSimulator {
 		Quakable quack = new Quack();
 		Quakable squeak = new Squeak();
 
-		Duck mullardDuck = new MullardDuck(flyWithWings, quack);
-		Duck redheadDuck = new RedheadDuck(flyWithWings, squeak);
-		RubberDuck rubberDuck = new RubberDuck(flyNoWay, squeak);
+		Duck mullardDuck = new MullardDuck(flyWithWings, squeak);
+		Duck redheadDuck = new RedheadDuck(flyWithWings, quack);
+		RubberDuck rubberDuck = new RubberDuck(flyNoWay, quack);
 
 		showDucks(mullardDuck);
 		showDucks(redheadDuck);
@@ -31,6 +31,7 @@ public class DuckUSimulator {
 		duck.performQuack();
 		duck.swim();
 		duck.performFly();
+
 		duck.display();
 		System.out.println("---------------------");
 	}
